@@ -58,6 +58,7 @@
   --heading-sm: 36px; /* Small Heading */
   --heading-md: 44px; /* Meadium Heading */
   --heading-lg: 50px; /* Large Heading */
+  --heading-xl: 75px; /* Extra Large Heading */
 }
 
 * {
