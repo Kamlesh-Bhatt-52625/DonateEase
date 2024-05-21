@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Card.css"
+import "./card.css"
 
 
 
@@ -8,40 +8,44 @@ const Cards = () => {
     <div className='outer'>
       <div className='main-card'>
         <div className='logo'>
-
+          <img src='src/assets/heart-love-marriage-3-svgrepo-com.svg'/>
         </div>
         <div className='content'>
-          <p>"Spread hope, spread love - donate today."</p>
+          <p>Spread hope, love -</p>
+          <p> donate!</p>
         </div>
 
       </div>
 
       <div className='main-card'>
         <div className='logo'>
-
+        <img src='src/assets/truck-with-money-svgrepo-com.svg'/>
         </div>
         <div className='content'>
-         <p>Invest in a brighter future. Your donation matters</p>
+         <p>Fuel our mission.</p>
+         <p>Support today</p>
         </div>
 
       </div>
 
       <div className='main-card'>
         <div className='logo'>
-
+         <img src='src/assets/donate-donation-svgrepo-com.svg'/>
         </div>
         <div className='content'>
-         <p>Join our cause and be a part of something greater. Donate now!</p>
+         <p>Join, be part,</p>
+         <p>donate now!</p>
         </div>
 
       </div>
 
       <div className='main-card'>
         <div className='logo'>
-
+        <img src='src/assets/change-svgrepo-com.svg'/>
         </div>
         <div className='content'>
-        <p>Small acts, big change. Give what you can, when you can.</p>
+        <p>Small acts, big</p>
+        <p>change. Donate.</p>
         </div>
 
       </div>
