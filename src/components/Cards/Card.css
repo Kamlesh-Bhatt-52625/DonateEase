@@ -1,0 +1,14 @@
+.outer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: var(--default-spacing)
+    /* grid-gap:5px; */
+    /* padding-right: 10%; */
+}
+
+ .main-card{
+   height: 250px;
+   width: 250px;
+   border: 1px solid black;
+   border-radius: 10px;
+}
