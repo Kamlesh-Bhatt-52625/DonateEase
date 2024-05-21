@@ -1,6 +1,7 @@
 /* Colors */
 :root {
-  --primary-color: #ff4800ff; /* Primary Blue */
+  --primary-color: rgb(240, 100, 44); /* Primary Orange */
+  --hover-color: rgb(231, 66, 0); /* Hover Orange */
   --secondary-color: #6c757d; /* Secondary Gray */
   --success-color: #28a745; /* Success Green */
   --danger-color: #dc3545; /* Danger Red */
@@ -23,6 +24,7 @@
   --spacing-md: 16px;
   --spacing-lg: 24px;
   --spacing-xl: 32px;
+  --default-spacing: 5%;
 }
 
 /* Border Radius */
@@ -42,6 +44,9 @@
 /* Typography */
 :root {
   --text-color: #111; /* Text Dark Gray */
+  --subtext-color-black: #222;
+  --subtext-color-white: #e0e0e0;
+  --button-color: #111; /* Text Dark Gray */
   --heading-color: #111; /* Heading Black */
   --link-color: #007bff; /* Link Primary Blue */
   --text-xs: 12px; /* Extra Small Text Size */
@@ -49,6 +54,10 @@
   --text-md: 16px; /* Medium Text Size */
   --text-lg: 18px; /* Large Text Size */
   --text-xl: 24px; /* Extra Large Text Size */
+  --text-xxl: 32px; /* Extra Extra Large Text Size */
+  --heading-sm: 36px; /* Small Heading */
+  --heading-md: 44px; /* Meadium Heading */
+  --heading-lg: 50px; /* Large Heading */
 }
 
 * {
