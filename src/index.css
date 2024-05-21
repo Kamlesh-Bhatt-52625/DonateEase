@@ -23,6 +23,7 @@
   --spacing-md: 16px;
   --spacing-lg: 24px;
   --spacing-xl: 32px;
+  --default-spacing: 5%;
 }
 
 /* Border Radius */
