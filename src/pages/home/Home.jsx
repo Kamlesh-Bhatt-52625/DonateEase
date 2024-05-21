@@ -6,6 +6,7 @@ import SwiperCore from "swiper";
 import "swiper/css/bundle";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Cards from "../../components/cards/Cards";
 
 const Home = () => {
   SwiperCore.use([Navigation]);
@@ -121,6 +122,7 @@ const Home = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      <Cards/>
     </div>
   );
 };

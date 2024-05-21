@@ -1,14 +1,88 @@
 .outer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    padding: var(--default-spacing)
-    /* grid-gap:5px; */
-    /* padding-right: 10%; */
+    margin-left: var(--default-spacing);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: auto;
 }
 
  .main-card{
    height: 250px;
    width: 250px;
-   border: 1px solid black;
+   background-color:#ffffff;
    border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-shadow: var(--box-shadow-md)
 }
+.logo img{
+
+    height: 80px;
+    width: 80px;
+    padding-bottom: 20px;
+
+}
+
+.content p{
+   font-size: var(--text-xl);
+}
+
+
+
+
+@media only screen and (max-width: 1007px) {
+    .outer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: var(--default-spacing);
+        margin-top: 40px;
+        margin-bottom: 40px;
+        gap: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .main-card{
+        height: 300px;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        
+     }
+     .content p{
+        font-size: var(--text-xxl);
+     }
+
+    .outer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: var(--default-spacing);
+        margin-top: 40px;
+        margin-bottom: 40px;
+        gap: var(--spacing-md);
+    }
+}
+@media only screen and (max-width: 640px) {
+    .main-card{
+        height: 300px;
+        width: 90%;
+        
+        
+     }
+    
+    .outer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: var(--spacing-xl);
+        margin-top: 40px;
+        margin-bottom: 40px;
+        gap: auto;
+
+    }
+}
+
