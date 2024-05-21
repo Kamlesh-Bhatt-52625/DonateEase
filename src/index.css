@@ -1,0 +1,52 @@
+/* Colors */
+:root {
+  --primary-color: #ff4800ff; /* Primary Blue */
+  --secondary-color: #6c757d; /* Secondary Gray */
+  --success-color: #28a745; /* Success Green */
+  --danger-color: #dc3545; /* Danger Red */
+  --warning-color: #ffc107; /* Warning Yellow */
+  --info-color: #17a2b8; /* Info Cyan */
+  --light-color: #f8f9fa; /* Light Gray */
+  --dark-color: #2c3033; /* Dark Gray */
+}
+
+/* Fonts */
+:root {
+  --font-primary: "Arial", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+}
+
+/* Spacing */
+:root {
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+}
+
+/* Border Radius */
+:root {
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+}
+
+/* Box Shadows */
+:root {
+  --box-shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  --box-shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+:root {
+  --text-color: #111; /* Text Dark Gray */
+  --heading-color: #111; /* Heading Black */
+  --link-color: #007bff; /* Link Primary Blue */
+  --text-xs: 12px; /* Extra Small Text Size */
+  --text-sm: 14px; /* Small Text Size */
+  --text-md: 16px; /* Medium Text Size */
+  --text-lg: 18px; /* Large Text Size */
+  --text-xl: 24px; /* Extra Large Text Size */
+}
