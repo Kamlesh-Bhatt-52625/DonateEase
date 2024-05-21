@@ -15,14 +15,14 @@ const Home = () => {
       <Swiper
         centeredSlides={true}
         autoplay={{
-          delay: 3500,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination]}
       >
         <SwiperSlide>
           <div

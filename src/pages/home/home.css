@@ -4,9 +4,9 @@
 
 .slide-content {
   position: absolute;
-  top: 55%;
-  left: 35%;
-  transform: translate(-50%, -60%);
+  top: 10%;
+  left: 5%;
+  transform: translate(0, 0);
   text-align: left;
   color: #ffffff;
   max-width: 90%;
@@ -14,7 +14,7 @@
 }
 
 .slide-content h2 {
-  font-size: var(--heading-lg);
+  font-size: var(--heading-xl);
   margin-bottom: var(--spacing-lg);
   /* -webkit-text-stroke: 1.5px #ffffff;
   color: transparent; */
@@ -27,6 +27,21 @@
 
   .slide-content p {
     font-size: var(--text-md);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slide-content {
+    padding: var(--spacing-md);
+  }
+
+  .slide-content h2 {
+    font-size: var(--heading-sm);
+    margin-bottom: var(--spacing-md);
+  }
+
+  .slide-content p {
+    font-size: var(--text-sm);
   }
 }
 
