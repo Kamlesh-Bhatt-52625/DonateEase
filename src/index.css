@@ -2,7 +2,7 @@
 :root {
   --primary-color: rgb(240, 100, 44); /* Primary Orange */
   --hover-color: rgb(231, 66, 0); /* Hover Orange */
-  --secondary-color: #6c757d; /* Secondary Gray */
+  --secondary-color: #d7dbdf; /* Secondary Gray */
   --success-color: #28a745; /* Success Green */
   --danger-color: #dc3545; /* Danger Red */
   --warning-color: #ffc107; /* Warning Yellow */

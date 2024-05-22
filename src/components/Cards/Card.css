@@ -18,6 +18,14 @@
    align-items: center;
    box-shadow: var(--box-shadow-md)
 }
+
+.main-card:hover{
+    cursor: pointer;
+    background-color: var(--hover-color);
+    transition: background-color 0.7s ease;
+    box-shadow: var(--box-shadow-lg);
+}
+
 .logo img{
 
     height: 80px;
@@ -29,9 +37,6 @@
 .content p{
    font-size: var(--text-xl);
 }
-
-
-
 
 @media only screen and (max-width: 1007px) {
     .outer {
@@ -50,9 +55,7 @@
         height: 300px;
         width: 90%;
         margin-top: 20px;
-        margin-bottom: 20px;
-        
-        
+        margin-bottom: 20px;  
      }
      .content p{
         font-size: var(--text-xxl);
@@ -70,9 +73,7 @@
 @media only screen and (max-width: 640px) {
     .main-card{
         height: 300px;
-        width: 90%;
-        
-        
+        width: 90%;  
      }
     
     .outer {
