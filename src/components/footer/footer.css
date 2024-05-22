@@ -52,9 +52,20 @@ hr{
     padding-left:40%;
 }
 
+@media screen and (max-width:900px) {
+    .footer{
+        grid-template-columns: repeat(3,1fr);
+       
+    }
+    .outer-footer{
+        height: 65vh;
+      
+    }
+}
+
 @media screen and (max-width:640px) {
     .outer-footer{
-        height: 55vh;
+        height: 65vh;
       
     }
     .outer-footer p{
